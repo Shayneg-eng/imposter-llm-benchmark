@@ -1,0 +1,173 @@
+{
+  "game_id": "n4_k2_d2_run1_1783048557",
+  "config": {
+    "n_players": 4,
+    "n_imposters": 2,
+    "discussion_rounds": 2,
+    "model": "gpt-5.3-codex",
+    "temperature": 0.7
+  },
+  "players": [
+    {
+      "name": "Player_C",
+      "role": "IMPOSTER",
+      "survived": false
+    },
+    {
+      "name": "Player_B",
+      "role": "IMPOSTER",
+      "survived": false
+    },
+    {
+      "name": "Player_A",
+      "role": "CREWMATE",
+      "survived": true
+    },
+    {
+      "name": "Player_D",
+      "role": "CREWMATE",
+      "survived": true
+    }
+  ],
+  "winner": "crewmates",
+  "rounds_played": 2,
+  "discussion_log": [
+    {
+      "round": 1,
+      "name": "Player_C",
+      "text": "No hard clears yet, but Player_D felt a bit too quick to steer the conversation before we had any solid info, which can be a way to shape an easy vote. I\u2019d also like to hear more from Player_A since they\u2019ve stayed pretty neutral so far. If we\u2019re voting this round, I\u2019d lean D based on tone."
+    },
+    {
+      "round": 1,
+      "name": "Player_B",
+      "text": "Nothing hard yet, but Player_A\u2019s pathing felt a bit odd\u2014they doubled back near Electrical without a clear task finish. I\u2019d like to hear A\u2019s exact route and who saw them, because that\u2019s the only thing that stood out to me this round."
+    },
+    {
+      "round": 1,
+      "name": "Player_A",
+      "text": "Early read: I\u2019m most suspicious of **Player_B** for staying vague and not offering any concrete observations, which can be a safe way to avoid accountability. **Player_C** is a lighter concern for now due to quick agreement without adding reasoning. I want each player to give one specific suspicion plus why, so we can compare consistency next vote."
+    },
+    {
+      "round": 1,
+      "name": "Player_D",
+      "text": "Early read: I\u2019m most suspicious of **Player_B** right now\u2014his comments felt vague and non-committal compared to everyone else. With 2 imposters in 4, we can\u2019t afford random votes, so I want each person to give a clear top suspect and concrete reason before we lock votes."
+    },
+    {
+      "round": 1,
+      "name": "Player_C",
+      "text": "No hard reads yet, but Player_A felt a bit too quick to steer the conversation without giving much concrete info. I\u2019d like to hear more from Player_D too before locking anything in, but right now A is my slight lean."
+    },
+    {
+      "round": 1,
+      "name": "Player_B",
+      "text": "No hard clears yet, but Player_D felt a bit too quiet while everyone else gave at least some direction. I\u2019d lean D for now just because low-info play helps killers early, but I\u2019m open to hearing one solid read before locking a vote."
+    },
+    {
+      "round": 1,
+      "name": "Player_A",
+      "text": "Early read: I\u2019m most suspicious of **Player_D** for staying vague and not giving any concrete suspicion yet\u2014easy way to avoid accountability in Round 1.  \nI also want to hear **Player_C** and **Player_B** each name a top suspect now so we can compare consistency next vote."
+    },
+    {
+      "round": 1,
+      "name": "Player_D",
+      "text": "Early read: **Player_B** is my top suspicion for now\u2014they pushed blame quickly without giving a concrete timeline or task-based detail. I also want to watch **Player_C** for how they react to pressure, since vague agreement can be cover behavior. I\u2019m open to updating if anyone gives specific movement/task info."
+    },
+    {
+      "round": 2,
+      "name": "Player_C",
+      "text": "With B flipping imposter, I want to re-check who was shaping votes around that: A consistently pushed for concrete reads and pressure-testing, which looks more like solving than distancing. D has had the most flexible positioning (calling out B, then shading me as \u201ccover behavior\u201d), which can be opportunistic, so my lean is D right now."
+    },
+    {
+      "round": 2,
+      "name": "Player_A",
+      "text": "With **Player_B confirmed as imposter**, the key is who they were trying to set up: B pushed suspicion onto me and D, while **Player_C repeatedly tunneled me with shifting reasons and little concrete detail**. **My top suspect is Player_C**\u2014their pressure pattern looks like partner distancing from B while keeping a misvote lined up on me."
+    },
+    {
+      "round": 2,
+      "name": "Player_D",
+      "text": "With B confirmed as an imposter, A looks better because they consistently pushed B early with a concrete accountability-based reason, while C repeatedly floated whichever target was easiest (first me, then A) without committing to B.  \nMy top suspect is **Player_C** for that opportunistic, low-commitment progression of reads.  \nI\u2019m voting **Player_C**."
+    },
+    {
+      "round": 2,
+      "name": "Player_C",
+      "text": "Given B flipped imposter, I\u2019m looking hardest at **Player_A** right now: A repeatedly shifted targets while keeping the reasoning broad (\u201cvague/non-committal\u201d), which can be distancing without committing to a real solve. **Player_D** was at least consistent on B across the round, so between the two, A is my stronger vote today."
+    },
+    {
+      "round": 2,
+      "name": "Player_A",
+      "text": "With B flipping imposter, D looks better because they consistently pushed B with a concrete reason while C repeatedly tunneled D/me and never seriously evaluated B.  \nMy top suspect is **Player_C** for that vote pattern and opportunistic pressure shifts; if C can\u2019t give a clear, evidence-based case that explains ignoring B, we should eject C now."
+    },
+    {
+      "round": 2,
+      "name": "Player_D",
+      "text": "With B confirmed, I\u2019m looking hardest at **Player_C**: C repeatedly floated soft, tone-based pushes on both me and A without committing to concrete evidence, which pairs well with B\u2019s vague pressure style. **Player_A** was the most consistent on B from the start and pushed for accountable reads, so A is the stronger partner candidate only if C can give a solid, specific countercase right now."
+    }
+  ],
+  "vote_log": [
+    {
+      "round": 1,
+      "voter": "Player_C",
+      "voter_is_imposter": true,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_B",
+      "voter_is_imposter": true,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_A",
+      "voter_is_imposter": false,
+      "target": "Player_B",
+      "target_is_imposter": true
+    },
+    {
+      "round": 1,
+      "voter": "Player_D",
+      "voter_is_imposter": false,
+      "target": "Player_B",
+      "target_is_imposter": true
+    },
+    {
+      "round": 2,
+      "voter": "Player_C",
+      "voter_is_imposter": true,
+      "target": "Player_A",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_A",
+      "voter_is_imposter": false,
+      "target": "Player_C",
+      "target_is_imposter": true
+    },
+    {
+      "round": 2,
+      "voter": "Player_D",
+      "voter_is_imposter": false,
+      "target": "Player_C",
+      "target_is_imposter": true
+    }
+  ],
+  "ejection_log": [
+    {
+      "round": 1,
+      "name": "Player_B",
+      "role": "IMPOSTER",
+      "votes_received": 2,
+      "total_votes": 4
+    },
+    {
+      "round": 2,
+      "name": "Player_C",
+      "role": "IMPOSTER",
+      "votes_received": 2,
+      "total_votes": 3
+    }
+  ]
+}

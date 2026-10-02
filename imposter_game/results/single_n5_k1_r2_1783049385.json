@@ -1,0 +1,307 @@
+{
+  "game_id": "single_n5_k1_r2_1783049385",
+  "config": {
+    "n_players": 5,
+    "n_imposters": 1,
+    "clue_rounds": 2,
+    "allow_guess": true,
+    "word_category": null,
+    "model": "GPT-5.4-Nano",
+    "temperature": 0.7
+  },
+  "secret_word": "sourdough",
+  "word_category": "food",
+  "players": [
+    {
+      "name": "Player_D",
+      "role": "IMPOSTER",
+      "survived": true
+    },
+    {
+      "name": "Player_B",
+      "role": "NON-IMPOSTER",
+      "survived": false
+    },
+    {
+      "name": "Player_E",
+      "role": "NON-IMPOSTER",
+      "survived": false
+    },
+    {
+      "name": "Player_A",
+      "role": "NON-IMPOSTER",
+      "survived": false
+    },
+    {
+      "name": "Player_C",
+      "role": "NON-IMPOSTER",
+      "survived": true
+    }
+  ],
+  "winner": "imposters",
+  "imposter_guessed_word": null,
+  "clue_log": [
+    {
+      "round": 1,
+      "name": "Player_D",
+      "is_imposter": true,
+      "clue": "Quietly broken silence"
+    },
+    {
+      "round": 1,
+      "name": "Player_B",
+      "is_imposter": false,
+      "clue": "Warm fermentation starter"
+    },
+    {
+      "round": 1,
+      "name": "Player_E",
+      "is_imposter": false,
+      "clue": "Long, slow rise"
+    },
+    {
+      "round": 1,
+      "name": "Player_A",
+      "is_imposter": false,
+      "clue": "Crusty tangy loaf"
+    },
+    {
+      "round": 1,
+      "name": "Player_C",
+      "is_imposter": false,
+      "clue": "Bubbly natural ferment"
+    },
+    {
+      "round": 2,
+      "name": "Player_D",
+      "is_imposter": true,
+      "clue": "Golden crust aroma"
+    },
+    {
+      "round": 2,
+      "name": "Player_B",
+      "is_imposter": false,
+      "clue": "Wild yeast bubbles"
+    },
+    {
+      "round": 2,
+      "name": "Player_E",
+      "is_imposter": false,
+      "clue": "Lactic tang fermentation"
+    },
+    {
+      "round": 2,
+      "name": "Player_A",
+      "is_imposter": false,
+      "clue": "Flour-water levain"
+    },
+    {
+      "round": 2,
+      "name": "Player_C",
+      "is_imposter": false,
+      "clue": "Fermented grain tang"
+    },
+    {
+      "round": 1,
+      "name": "Player_D",
+      "is_imposter": true,
+      "clue": "Sourdough\u2019s tangy aroma"
+    },
+    {
+      "round": 1,
+      "name": "Player_B",
+      "is_imposter": false,
+      "clue": "Wild yeast starter"
+    },
+    {
+      "round": 1,
+      "name": "Player_E",
+      "is_imposter": false,
+      "clue": "Wild fermented loaf"
+    },
+    {
+      "round": 1,
+      "name": "Player_C",
+      "is_imposter": false,
+      "clue": "Wild starter culture"
+    },
+    {
+      "round": 2,
+      "name": "Player_D",
+      "is_imposter": true,
+      "clue": "Toasty blistered crust"
+    },
+    {
+      "round": 2,
+      "name": "Player_B",
+      "is_imposter": false,
+      "clue": "Fermented wheat lactic tang"
+    },
+    {
+      "round": 2,
+      "name": "Player_E",
+      "is_imposter": false,
+      "clue": "Crumbly, chewy crumb"
+    },
+    {
+      "round": 2,
+      "name": "Player_C",
+      "is_imposter": false,
+      "clue": "\u201cSlow proof, crusty bite\u201d"
+    },
+    {
+      "round": 1,
+      "name": "Player_D",
+      "is_imposter": true,
+      "clue": "\u201cFermented dough\u2019s tang\u201d"
+    },
+    {
+      "round": 1,
+      "name": "Player_E",
+      "is_imposter": false,
+      "clue": "Cultured starter bubbles"
+    },
+    {
+      "round": 1,
+      "name": "Player_C",
+      "is_imposter": false,
+      "clue": "\u201cWild starter bubbles\u201d"
+    },
+    {
+      "round": 2,
+      "name": "Player_D",
+      "is_imposter": true,
+      "clue": "Tangy, airy crumb"
+    },
+    {
+      "round": 2,
+      "name": "Player_E",
+      "is_imposter": false,
+      "clue": "\u201cBakers\u2019 cultured starter\u201d"
+    },
+    {
+      "round": 2,
+      "name": "Player_C",
+      "is_imposter": false,
+      "clue": "Wild starter patience"
+    }
+  ],
+  "vote_log": [
+    {
+      "round": 2,
+      "voter": "Player_D",
+      "voter_is_imposter": true,
+      "target": "Player_B",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_B",
+      "voter_is_imposter": false,
+      "target": "Player_E",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_E",
+      "voter_is_imposter": false,
+      "target": "Player_A",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_A",
+      "voter_is_imposter": false,
+      "target": "Player_D",
+      "target_is_imposter": true
+    },
+    {
+      "round": 2,
+      "voter": "Player_C",
+      "voter_is_imposter": false,
+      "target": "Player_A",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_D",
+      "voter_is_imposter": true,
+      "target": "Player_B",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_B",
+      "voter_is_imposter": false,
+      "target": "Player_E",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_E",
+      "voter_is_imposter": false,
+      "target": "Player_B",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_C",
+      "voter_is_imposter": false,
+      "target": "Player_B",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_D",
+      "voter_is_imposter": true,
+      "target": "Player_C",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_E",
+      "voter_is_imposter": false,
+      "target": "Player_D",
+      "target_is_imposter": true
+    },
+    {
+      "round": 2,
+      "voter": "Player_C",
+      "voter_is_imposter": false,
+      "target": "Player_E",
+      "target_is_imposter": false
+    }
+  ],
+  "accusation_log": [
+    {
+      "round": 2,
+      "accused": "Player_A",
+      "role": "NON-IMPOSTER",
+      "was_imposter": false,
+      "votes_received": 2,
+      "total_votes": 5,
+      "imposter_word_guess": null,
+      "guess_correct": null
+    },
+    {
+      "round": 2,
+      "accused": "Player_B",
+      "role": "NON-IMPOSTER",
+      "was_imposter": false,
+      "votes_received": 3,
+      "total_votes": 4,
+      "imposter_word_guess": null,
+      "guess_correct": null
+    },
+    {
+      "round": 2,
+      "accused": "Player_E",
+      "role": "NON-IMPOSTER",
+      "was_imposter": false,
+      "votes_received": 1,
+      "total_votes": 3,
+      "imposter_word_guess": null,
+      "guess_correct": null
+    }
+  ]
+}

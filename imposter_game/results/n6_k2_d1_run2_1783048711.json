@@ -1,0 +1,294 @@
+{
+  "game_id": "n6_k2_d1_run2_1783048711",
+  "config": {
+    "n_players": 6,
+    "n_imposters": 2,
+    "discussion_rounds": 1,
+    "model": "gpt-5.3-codex",
+    "temperature": 0.7
+  },
+  "players": [
+    {
+      "name": "Player_C",
+      "role": "IMPOSTER",
+      "survived": false
+    },
+    {
+      "name": "Player_D",
+      "role": "IMPOSTER",
+      "survived": true
+    },
+    {
+      "name": "Player_B",
+      "role": "CREWMATE",
+      "survived": false
+    },
+    {
+      "name": "Player_F",
+      "role": "CREWMATE",
+      "survived": false
+    },
+    {
+      "name": "Player_A",
+      "role": "CREWMATE",
+      "survived": false
+    },
+    {
+      "name": "Player_E",
+      "role": "CREWMATE",
+      "survived": true
+    }
+  ],
+  "winner": "imposters",
+  "rounds_played": 4,
+  "discussion_log": [
+    {
+      "round": 1,
+      "name": "Player_C",
+      "text": "Early read is weak, but Player_B feels a bit performative\u2014jumped in fast without adding much concrete detail. I\u2019d like to hear clearer pathing/timing from B and F before we lock anything in. For now, slight lean on B."
+    },
+    {
+      "round": 1,
+      "name": "Player_D",
+      "text": "Early take: I\u2019m a little wary of **Player_F** \u2014 they jumped on forming a suspect list very fast without giving any concrete movement/pathing details. It can be a way to steer the round before we have real info. I\u2019d like to hear exact routes from F and B before we commit a vote."
+    },
+    {
+      "round": 1,
+      "name": "Player_B",
+      "text": "Early read: I\u2019m slightly suspicious of **Player_F** for staying vague and not giving any concrete read, which is an easy way to avoid accountability. **Player_D** is a weaker ping for me for echoing others instead of pushing independent logic. I want both to give specific suspect rankings before we vote."
+    },
+    {
+      "round": 1,
+      "name": "Player_F",
+      "text": "Early read: no hard clears yet, but I\u2019m lightly suspicious of **Player_D** for staying vague and not offering any concrete pairing or timeline. I also want **Player_B** to give a specific pathing/check-in so we can compare stories next round. For now, let\u2019s avoid a random vote and force everyone to commit to details."
+    },
+    {
+      "round": 1,
+      "name": "Player_A",
+      "text": "Early read: slight suspicion on **Player_D** for staying vague and not giving any concrete pathing or task info, which can be a safe way to blend in.  \nI also want to hear more from **Player_F** next, since they\u2019ve mostly echoed others instead of adding independent observations."
+    },
+    {
+      "round": 1,
+      "name": "Player_E",
+      "text": "Early read: I\u2019m slightly suspicious of **Player_B** for staying vague and not offering any concrete reads yet\u2014easy way to avoid accountability.  \nNo hard accuse on round 1, but I want **Player_B** and **Player_F** to give specific suspicions and a preferred vote target so we can compare consistency next round."
+    },
+    {
+      "round": 2,
+      "name": "Player_C",
+      "text": "B flipping crewmate makes me re-check who helped build that wagon versus who kept options open. Right now I\u2019m most wary of **Player_F** and **Player_A**: F spent R1 pushing \u201cdetails later\u201d while nudging D, and A\u2019s read felt low-commitment but positioned to follow whichever way the vote moved. I want both to give a firm top suspect now so we can test consistency."
+    },
+    {
+      "round": 2,
+      "name": "Player_D",
+      "text": "B flipping crew makes the R1 push pattern important: the strongest pressure on B came from **C** and **E**, which could be opportunistic if they were steering an easy misvote. I still have some concern on **F** for the same reason as last round (fast suspicion shaping without much concrete timeline), but right now I\u2019d like **C/E** to explain why their B read was strong enough to help drive that eject."
+    },
+    {
+      "round": 2,
+      "name": "Player_F",
+      "text": "B flipping crewmate makes the early push on them worth revisiting: **Player_C and Player_E** both parked there with low-evidence \u201cvague\u201d reasoning, which feels like safe miselim setup. I\u2019m still wary of **Player_D** too\u2014D spent most of round 1 framing me without adding verifiable detail, which can be pocket-control. My vote is between **C/E first, D second** unless someone gives concrete round-2 info that changes this."
+    },
+    {
+      "round": 2,
+      "name": "Player_A",
+      "text": "B flipped crewmate, so the people who pushed B most directly (C and E) deserve pressure today. My top suspicion is **Player_E** for parking on a low-risk \u201cB is vague\u201d read while avoiding stronger commitments, with **Player_C** as second for setting that same B narrative early. I want D/F to give updated pairings now that we have a mis-eject, because consistency this round matters most."
+    },
+    {
+      "round": 2,
+      "name": "Player_E",
+      "text": "B flipping crewmate makes the early push on them look bad, so my strongest suspicion is on **Player_C** (set that tone first) with a secondary look at **Player_F** for the round-1 mutual shading loop around D/B/F that never produced concrete evidence.  \nI\u2019m least suspicious of **Player_D** right now since they at least kept a consistent pressure line, while C\u2019s vote trajectory feels the most opportunistic after that mis-eject."
+    },
+    {
+      "round": 3,
+      "name": "Player_D",
+      "text": "With C confirmed, I\u2019m looking hardest at **F vs A**, and I currently lean **F**: across both rounds F kept broad suspicion webs (D/B, then C/E, then D as backup) without ever anchoring to a concrete, testable timeline. **A** has been more linear in comparison (mainly C/E after the B flip), so unless new info appears, F is my preferred vote today."
+    },
+    {
+      "round": 3,
+      "name": "Player_F",
+      "text": "With C confirmed, the key is the partner: I\u2019m most suspicious of **E** because they helped push the B mis-eject in R1, then in R2 tried to distance by blaming C while keeping me as a backup target and hard-clearing D with little basis. **A** has been the most consistent on pressuring the B pushers, so my vote is **E** unless D can explain why E\u2019s trajectory isn\u2019t opportunistic."
+    },
+    {
+      "round": 3,
+      "name": "Player_A",
+      "text": "With C confirmed, the remaining pool is D/F/E, and the cleanest partner signal is **E**: they helped drive the B mis-eject in R1, then in R2 pivoted to bussing C only after pressure made C a viable target. Between D and F, I lean **F** as second over D because F repeatedly kept a wide \u201cC/E or D\u201d spread that preserved flexibility instead of committing early. My vote today is **Player_E**."
+    },
+    {
+      "round": 3,
+      "name": "Player_E",
+      "text": "With C confirmed imposter, I\u2019m looking hardest at **Player_F**: in Round 2 they grouped me with C as a \u201csafe miselim setup,\u201d which now reads like distancing from a partner while preloading a backup misvote. **Player_A** is my secondary concern for strongly tunneling me off the same B wagon logic C helped seed, while **Player_D** has been the most consistent across rounds.  \nMy preferred vote is **F**."
+    },
+    {
+      "round": 4,
+      "name": "Player_D",
+      "text": "At 3 players, this is about vote trajectory, and **A** is the one who stayed on a single narrative (\u201cE from the B wagon\u201d) while avoiding re-evaluating after flips\u2014good way to look consistent without being accurate. **E** at least adjusted reads as new info came in and was willing to commit each round, which is harder to fake cleanly at endgame. My vote is **Player_A**."
+    },
+    {
+      "round": 4,
+      "name": "Player_A",
+      "text": "At 3 players, this is the deciding vote, and **E is still my pick**: their trajectory is the most opportunistic\u2014on the B mis-eject they pushed the same low-evidence line as C, then pivoted to C only once that became the safe direction, and kept flexible backups after. D\u2019s line has stayed comparatively consistent, so I\u2019m voting **Player_E**."
+    },
+    {
+      "round": 4,
+      "name": "Player_E",
+      "text": "We\u2019re at 3 alive, so this is final vote logic: **I suspect Player_A over Player_D**. D\u2019s progression stayed consistent (R1 F pressure, then F/A split after C flip, then voted F), while A\u2019s trajectory repeatedly centered me and preserved flexibility around F as backup, which fits partner positioning with C better than D\u2019s line does. I\u2019m voting **Player_A**."
+    }
+  ],
+  "vote_log": [
+    {
+      "round": 1,
+      "voter": "Player_C",
+      "voter_is_imposter": true,
+      "target": "Player_F",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_D",
+      "voter_is_imposter": true,
+      "target": "Player_F",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_B",
+      "voter_is_imposter": false,
+      "target": "Player_F",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_F",
+      "voter_is_imposter": false,
+      "target": "Player_B",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_A",
+      "voter_is_imposter": false,
+      "target": "Player_B",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_E",
+      "voter_is_imposter": false,
+      "target": "Player_B",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_C",
+      "voter_is_imposter": true,
+      "target": "Player_F",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_D",
+      "voter_is_imposter": true,
+      "target": "Player_A",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_F",
+      "voter_is_imposter": false,
+      "target": "Player_C",
+      "target_is_imposter": true
+    },
+    {
+      "round": 2,
+      "voter": "Player_A",
+      "voter_is_imposter": false,
+      "target": "Player_E",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_E",
+      "voter_is_imposter": false,
+      "target": "Player_C",
+      "target_is_imposter": true
+    },
+    {
+      "round": 3,
+      "voter": "Player_D",
+      "voter_is_imposter": true,
+      "target": "Player_F",
+      "target_is_imposter": false
+    },
+    {
+      "round": 3,
+      "voter": "Player_F",
+      "voter_is_imposter": false,
+      "target": "Player_E",
+      "target_is_imposter": false
+    },
+    {
+      "round": 3,
+      "voter": "Player_A",
+      "voter_is_imposter": false,
+      "target": "Player_E",
+      "target_is_imposter": false
+    },
+    {
+      "round": 3,
+      "voter": "Player_E",
+      "voter_is_imposter": false,
+      "target": "Player_F",
+      "target_is_imposter": false
+    },
+    {
+      "round": 4,
+      "voter": "Player_D",
+      "voter_is_imposter": true,
+      "target": "Player_A",
+      "target_is_imposter": false
+    },
+    {
+      "round": 4,
+      "voter": "Player_A",
+      "voter_is_imposter": false,
+      "target": "Player_E",
+      "target_is_imposter": false
+    },
+    {
+      "round": 4,
+      "voter": "Player_E",
+      "voter_is_imposter": false,
+      "target": "Player_A",
+      "target_is_imposter": false
+    }
+  ],
+  "ejection_log": [
+    {
+      "round": 1,
+      "name": "Player_B",
+      "role": "CREWMATE",
+      "votes_received": 3,
+      "total_votes": 6
+    },
+    {
+      "round": 2,
+      "name": "Player_C",
+      "role": "IMPOSTER",
+      "votes_received": 2,
+      "total_votes": 5
+    },
+    {
+      "round": 3,
+      "name": "Player_F",
+      "role": "CREWMATE",
+      "votes_received": 2,
+      "total_votes": 4
+    },
+    {
+      "round": 4,
+      "name": "Player_A",
+      "role": "CREWMATE",
+      "votes_received": 2,
+      "total_votes": 3
+    }
+  ]
+}

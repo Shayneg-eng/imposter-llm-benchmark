@@ -1,0 +1,400 @@
+{
+  "game_id": "n8_k2_d1_run0_1783048992",
+  "config": {
+    "n_players": 8,
+    "n_imposters": 2,
+    "discussion_rounds": 1,
+    "model": "gpt-5.3-codex",
+    "temperature": 0.7
+  },
+  "players": [
+    {
+      "name": "Player_C",
+      "role": "IMPOSTER",
+      "survived": true
+    },
+    {
+      "name": "Player_E",
+      "role": "IMPOSTER",
+      "survived": true
+    },
+    {
+      "name": "Player_F",
+      "role": "CREWMATE",
+      "survived": false
+    },
+    {
+      "name": "Player_H",
+      "role": "CREWMATE",
+      "survived": false
+    },
+    {
+      "name": "Player_A",
+      "role": "CREWMATE",
+      "survived": true
+    },
+    {
+      "name": "Player_B",
+      "role": "CREWMATE",
+      "survived": false
+    },
+    {
+      "name": "Player_D",
+      "role": "CREWMATE",
+      "survived": false
+    },
+    {
+      "name": "Player_G",
+      "role": "CREWMATE",
+      "survived": true
+    }
+  ],
+  "winner": "imposters",
+  "rounds_played": 4,
+  "discussion_log": [
+    {
+      "round": 1,
+      "name": "Player_C",
+      "text": "Early read only, but Player_H felt a bit performative\u2014jumped to conclusions without much detail, which can be a way to steer the room fast. I also want to watch Player_F for staying pretty neutral and not giving a real take yet. I\u2019m not hard-pushing either, but those are my current pings."
+    },
+    {
+      "round": 1,
+      "name": "Player_E",
+      "text": "Nothing hard-confirmed yet, but Player_B felt a bit too eager to steer the conversation before we had any real info, which can be a way to set up an easy misvote. I also want to hear more from Player_H since they\u2019ve been pretty quiet so far. For now I\u2019d lean slight suspicion on B."
+    },
+    {
+      "round": 1,
+      "name": "Player_F",
+      "text": "No hard sus yet from me this early, but I want to pressure anyone giving vague \u201cI was just walking around\u201d paths with no task detail. Right now I\u2019d like to hear exact routes from **Player_B** and **Player_D** first\u2014early specificity helps catch contradictions later."
+    },
+    {
+      "round": 1,
+      "name": "Player_H",
+      "text": "No hard sus yet from me\u2014Round 1 is usually about catching contradictions. I want everyone to give a clear pathing/timeline (rooms + who you saw), because vague \u201cI was doing tasks\u201d statements are where imposters hide. If someone\u2019s route doesn\u2019t line up with others, we should pressure that first."
+    },
+    {
+      "round": 1,
+      "name": "Player_A",
+      "text": "No hard sus yet from me this early, but I want to pressure anyone giving vague \u201cI was just doing tasks\u201d paths with no locations.  \nRight now I\u2019m watching for people who avoid naming who they crossed and where\u2014those details usually catch liars fast.  \nIf anyone has a concrete route (rooms + who you saw), share it now so we can build a baseline for later rounds."
+    },
+    {
+      "round": 1,
+      "name": "Player_B",
+      "text": "No hard sus yet from me this early, but I want to flag anyone who gives a very \u201csafe\u201d non-committal read on everyone once more info comes out. For now, I\u2019d like each player to give a clear top-2 suspicion list so we can track consistency next round."
+    },
+    {
+      "round": 1,
+      "name": "Player_D",
+      "text": "No strong reads yet, but I want to pressure **Player_H** and **Player_F** first\u2014they were quieter and that\u2019s an easy place for imposters to hide early.  \nI\u2019d like each of them to give a clear pathing/task-style account from this round so we can compare consistency next discussion."
+    },
+    {
+      "round": 1,
+      "name": "Player_G",
+      "text": "Early read: no hard sus yet, but I want to pressure **Player_H** and **Player_B** first since they\u2019ve stayed the vaguest so far and that\u2019s where imposters often hide in Round 1.  \nIf either gives a soft push without specifics, I\u2019m voting there."
+    },
+    {
+      "round": 2,
+      "name": "Player_C",
+      "text": "B flipping crewmate makes me re-evaluate the people who parked easy pressure there early\u2014right now I\u2019m most wary of **F** and **D**.  \nF set up a \u201cgive exact routes\u201d framework but stayed non-committal themselves, and D\u2019s R1 push on \u201cquiet players\u201d felt opportunistic rather than evidence-based.  \nI\u2019d like both to give a concrete top-2 with specific contradictions this round, not just process talk."
+    },
+    {
+      "round": 2,
+      "name": "Player_E",
+      "text": "I\u2019m looking most at **Player_F** and **Player_D** right now: F set up \u201cgive exact routes\u201d pressure but stayed non-committal themselves, and D\u2019s push on H/F felt a bit opportunistic given everyone was still light on info.  \nI also want to re-evaluate **Player_H** based on how they follow up this round\u2014if they stay in theory mode instead of giving concrete reads, that\u2019s a red flag for me."
+    },
+    {
+      "round": 2,
+      "name": "Player_F",
+      "text": "Player_D is my top suspicion right now: they pushed me/H for being \u201cquiet,\u201d but that felt like an easy setup rather than solving, and they never followed up with concrete inconsistencies after asking for pathing. My second watch is Player_H\u2014not for the Round 1 tone alone, but because both D and H leaned on broad \u201cgive timelines\u201d language that can look helpful without producing real reads. I want D and H to each give a specific top-2 with one concrete contradiction, not just general pressure."
+    },
+    {
+      "round": 2,
+      "name": "Player_H",
+      "text": "Player_D is my top suspicion right now: they pushed me/F for being \u201cquiet\u201d in Round 1, but that was an easy, low-evidence setup that helped create momentum toward a mis-eject environment. I also want pressure on Player_C as a secondary\u2014calling me \u201cperformative\u201d without concrete contradiction reads like narrative-framing rather than solving. I want both D and C to give specific Round 1 routes + who they saw so we can test consistency."
+    },
+    {
+      "round": 2,
+      "name": "Player_A",
+      "text": "Player_D is my top suspicion right now: they pushed H/F for being \u201cquiet,\u201d but H had already given a concrete framework while D stayed mostly posture-heavy and non-committal.  \nMy second ping is Player_G, who set up a \u201cvote B if still vague\u201d lane early, and that pressure helped lead to a mis-eject on a crewmate.  \nI want D and G to give exact Round 1 routes + who they crossed so we can test consistency now."
+    },
+    {
+      "round": 2,
+      "name": "Player_D",
+      "text": "B flipping crew makes me reevaluate who helped that wagon without adding real evidence\u2014right now I\u2019m most suspicious of **E** (pushed B early on thin reasoning) and still watching **H** for staying broadly procedural without committing to concrete reads.  \n**F** is a lighter concern for me: asked for specifics but didn\u2019t follow through with much actual sorting last round.  \nI want each of E/H/F to give a clear top-2 with reasons *now* so we can lock in accountability before voting."
+    },
+    {
+      "round": 2,
+      "name": "Player_G",
+      "text": "Player_D is my top suspicion right now: they pushed H/F for being \u201cquiet,\u201d but H had already given a concrete framework while D stayed relatively non-committal and redirected pressure. My second ping is Player_F for staying broadly procedural without committing to a real read after calling for specificity. I want both to give direct top-2 suspects now and explain any change from Round 1."
+    },
+    {
+      "round": 3,
+      "name": "Player_C",
+      "text": "With D now confirmed crew, I\u2019m most suspicious of **F** and **H**: both have stayed very \u201cprocess-first,\u201d but F keeps framing others without owning decisive pushes, and H\u2019s suspicion on me still feels like narrative over contradiction.  \nI want **F** to give a firm top suspect and exact vote rationale right now instead of hedging."
+    },
+    {
+      "round": 3,
+      "name": "Player_E",
+      "text": "With D now confirmed crew, I\u2019m reassessing the people who drove that push hardest\u2014right now my top suspicion is **Player_F** for repeatedly staying in \u201cprocess\u201d mode while avoiding firm, testable stances until momentum was already there.  \nMy second is **Player_H**: strong structure talk, but their C suspicion felt more like narrative framing than contradiction-based solving, and it\u2019s been easy for them to stay flexible after each flip.  \nI want F and H to each give one concrete inconsistency from this round state, not just tone reads."
+    },
+    {
+      "round": 3,
+      "name": "Player_F",
+      "text": "With **D confirmed crew**, I\u2019m re-checking who consistently framed D/F as a paired suspicion lane without new contradictions; my top two right now are **C and E** for repeatedly parking on me as \u201cprocedural/non-committal\u201d while offering little concrete evidence beyond that label.  \n**H** is a lighter third watch because their pushes have mostly tracked consensus momentum rather than introducing fresh, testable inconsistencies.  \nI want C/E to each name one specific statement of mine that is contradictory (not just \u201ctone/process\u201d) and one player they\u2019d vote *besides* me."
+    },
+    {
+      "round": 3,
+      "name": "Player_H",
+      "text": "With D confirmed crew, the people who most consistently drove that lane without adding new evidence stand out most to me: **F** first, then **E**.  \nF repeatedly stayed in \u201cprocess pressure\u201d mode while keeping reads flexible, and E helped seed both the B and anti-D momentum on thin, opportunistic reasoning.  \nI want both to give a concrete, testable timeline from Round 2 plus one specific contradiction on someone *still alive* so we can lock this vote on substance."
+    },
+    {
+      "round": 3,
+      "name": "Player_A",
+      "text": "With D now confirmed crew, I\u2019m most suspicious of **Player_F** and **Player_H**: both spent multiple rounds leaning on process language, but F in particular keeps framing others without anchoring to verifiable contradictions, and H\u2019s pushes have shifted in a way that feels narrative-first (C in R2 after being called out, then back to D pressure).  \n**Player_G** is a lighter third for me due to helping set early B pressure, but between F/H/G I want us to force concrete Round 1\u20132 route claims plus who they saw and vote within that pool."
+    },
+    {
+      "round": 3,
+      "name": "Player_G",
+      "text": "With D confirmed crew, the strongest remaining concern is **F**: across both rounds they\u2019ve led with process-heavy pressure (\u201cgive routes/top-2\u201d) while delaying firm, evidence-based commitments until consensus formed. My second suspicion is **H**\u2014their D push was fine, but the secondary shade on C felt more like narrative balancing than contradiction-driven solving. I want **F** and **H** to each name one concrete inconsistency from this round that points to a specific player."
+    },
+    {
+      "round": 4,
+      "name": "Player_C",
+      "text": "At this point I\u2019m between **H and G**, with a slight lean on **H**: H\u2019s reads keep re-centering around whichever lane is already gaining traction, and the \u201cC is narrative-framing\u201d point never developed into a concrete contradiction.  \nG has looked cleaner overall but has mostly echoed consensus each round, so I want a direct, non-process case from both H and G on one *specific* living player before final vote."
+    },
+    {
+      "round": 4,
+      "name": "Player_E",
+      "text": "At this point I\u2019m still in the **F/H/G solve space**, with **H** slightly higher than G for me: H has stayed very polished but keeps repositioning reads in ways that preserve flexibility rather than committing early to testable outcomes.  \nG is my secondary because they\u2019ve mostly tracked the same consensus lanes without adding many original contradictions.  \nIf we\u2019re voting from the remaining pool, I\u2019d prioritize **H first, G second**."
+    },
+    {
+      "round": 4,
+      "name": "Player_H",
+      "text": "My top suspect is **Player_E**: they were early on the B mis-eject, then strongly reinforced the D lane, and each round their pushes have tracked mis-elim momentum more than produced new contradictions. My second is **Player_C** for repeatedly framing me as \u201cnarrative/process\u201d without ever grounding it in a specific inconsistency, which reads like setup over solving. I want **E** to name one concrete contradiction from a *living* player that isn\u2019t tone-based before we vote."
+    },
+    {
+      "round": 4,
+      "name": "Player_A",
+      "text": "At this point my top suspect is **Player_H**, with **Player_C** second: H has repeatedly stayed adaptable with narrative-heavy pushes (C \u2192 D/F/E lanes) without landing a clear, falsifiable contradiction, and C has mostly reinforced whichever process-case was already hot.  \nGiven **F flipped crewmate**, the people who benefited most from that sustained F framing are where I want the vote, and H has been central to that thread across rounds."
+    },
+    {
+      "round": 4,
+      "name": "Player_G",
+      "text": "At 5 alive after three mis-ejects, we need precision: my top suspect is **H**, because their reads have stayed highly adaptable (D \u2192 C \u2192 F/E) without landing on concrete contradictions that held across flips.  \nMy second is **E** for repeatedly being on the wrong side of momentum (early B pressure, then anti-D, then anti-F) while keeping rationale broad and revision-friendly.  \nI want **H and E** to each give one specific quote-level contradiction from a *living* player that directly justifies today\u2019s vote."
+    }
+  ],
+  "vote_log": [
+    {
+      "round": 1,
+      "voter": "Player_C",
+      "voter_is_imposter": true,
+      "target": "Player_B",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_E",
+      "voter_is_imposter": true,
+      "target": "Player_B",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_F",
+      "voter_is_imposter": false,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_H",
+      "voter_is_imposter": false,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_A",
+      "voter_is_imposter": false,
+      "target": "Player_B",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_B",
+      "voter_is_imposter": false,
+      "target": "Player_E",
+      "target_is_imposter": true
+    },
+    {
+      "round": 1,
+      "voter": "Player_D",
+      "voter_is_imposter": false,
+      "target": "Player_B",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_G",
+      "voter_is_imposter": false,
+      "target": "Player_B",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_C",
+      "voter_is_imposter": true,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_E",
+      "voter_is_imposter": true,
+      "target": "Player_F",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_F",
+      "voter_is_imposter": false,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_H",
+      "voter_is_imposter": false,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_A",
+      "voter_is_imposter": false,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_D",
+      "voter_is_imposter": false,
+      "target": "Player_F",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_G",
+      "voter_is_imposter": false,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 3,
+      "voter": "Player_C",
+      "voter_is_imposter": true,
+      "target": "Player_H",
+      "target_is_imposter": false
+    },
+    {
+      "round": 3,
+      "voter": "Player_E",
+      "voter_is_imposter": true,
+      "target": "Player_F",
+      "target_is_imposter": false
+    },
+    {
+      "round": 3,
+      "voter": "Player_F",
+      "voter_is_imposter": false,
+      "target": "Player_C",
+      "target_is_imposter": true
+    },
+    {
+      "round": 3,
+      "voter": "Player_H",
+      "voter_is_imposter": false,
+      "target": "Player_F",
+      "target_is_imposter": false
+    },
+    {
+      "round": 3,
+      "voter": "Player_A",
+      "voter_is_imposter": false,
+      "target": "Player_F",
+      "target_is_imposter": false
+    },
+    {
+      "round": 3,
+      "voter": "Player_G",
+      "voter_is_imposter": false,
+      "target": "Player_F",
+      "target_is_imposter": false
+    },
+    {
+      "round": 4,
+      "voter": "Player_C",
+      "voter_is_imposter": true,
+      "target": "Player_H",
+      "target_is_imposter": false
+    },
+    {
+      "round": 4,
+      "voter": "Player_E",
+      "voter_is_imposter": true,
+      "target": "Player_H",
+      "target_is_imposter": false
+    },
+    {
+      "round": 4,
+      "voter": "Player_H",
+      "voter_is_imposter": false,
+      "target": "Player_E",
+      "target_is_imposter": true
+    },
+    {
+      "round": 4,
+      "voter": "Player_A",
+      "voter_is_imposter": false,
+      "target": "Player_H",
+      "target_is_imposter": false
+    },
+    {
+      "round": 4,
+      "voter": "Player_G",
+      "voter_is_imposter": false,
+      "target": "Player_H",
+      "target_is_imposter": false
+    }
+  ],
+  "ejection_log": [
+    {
+      "round": 1,
+      "name": "Player_B",
+      "role": "CREWMATE",
+      "votes_received": 5,
+      "total_votes": 8
+    },
+    {
+      "round": 2,
+      "name": "Player_D",
+      "role": "CREWMATE",
+      "votes_received": 5,
+      "total_votes": 7
+    },
+    {
+      "round": 3,
+      "name": "Player_F",
+      "role": "CREWMATE",
+      "votes_received": 4,
+      "total_votes": 6
+    },
+    {
+      "round": 4,
+      "name": "Player_H",
+      "role": "CREWMATE",
+      "votes_received": 4,
+      "total_votes": 5
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "game_id": "n6_k2_d2_run0_1783048794",
+  "config": {
+    "n_players": 6,
+    "n_imposters": 2,
+    "discussion_rounds": 2,
+    "model": "gpt-5.3-codex",
+    "temperature": 0.7
+  },
+  "players": [
+    {
+      "name": "Player_C",
+      "role": "IMPOSTER",
+      "survived": true
+    },
+    {
+      "name": "Player_A",
+      "role": "IMPOSTER",
+      "survived": true
+    },
+    {
+      "name": "Player_D",
+      "role": "CREWMATE",
+      "survived": false
+    },
+    {
+      "name": "Player_B",
+      "role": "CREWMATE",
+      "survived": true
+    },
+    {
+      "name": "Player_F",
+      "role": "CREWMATE",
+      "survived": false
+    },
+    {
+      "name": "Player_E",
+      "role": "CREWMATE",
+      "survived": true
+    }
+  ],
+  "winner": "imposters",
+  "rounds_played": 2,
+  "discussion_log": [
+    {
+      "round": 1,
+      "name": "Player_C",
+      "text": "Nothing hard-confirmed yet, but Player_F felt a bit opportunistic jumping to conclusions before we had much info. I\u2019d like to hear a clearer timeline from F and D before we commit, because early pressure can flush out contradictions."
+    },
+    {
+      "round": 1,
+      "name": "Player_A",
+      "text": "Early read is **Player_F** felt a bit too eager to steer the conversation before anyone had real info, which can be a way to set up easy misvotes. I\u2019d also keep an eye on **Player_D** for mostly staying non-committal so far. Not hard-accusing yet, but those are the two I\u2019d pressure first."
+    },
+    {
+      "round": 1,
+      "name": "Player_D",
+      "text": "No hard sus yet from me this early, but I want to pressure anyone giving vague \u201cI was just moving around\u201d paths without specifics. Right now I\u2019m watching Player_B and Player_F for who gives concrete route/task details versus who deflects. If either of you can\u2019t give a clear timeline this round, I\u2019m leaning your way."
+    },
+    {
+      "round": 1,
+      "name": "Player_B",
+      "text": "Early read: no hard evidence yet, but I\u2019m slightly suspicious of **Player_D** for staying vague and not offering any concrete reads while others started engaging. I also want to watch **Player_F** for possible deflection if they keep focusing on \u201cno info\u201d instead of helping narrow suspects. For now, I\u2019d pressure one of those two with questions before locking a vote."
+    },
+    {
+      "round": 1,
+      "name": "Player_F",
+      "text": "Early read: **Player_D** feels slightly suspicious for staying vague and not offering any concrete observations, which can be a low-risk way to blend in. I also want to watch **Player_B** for now depending on whether they push a real lead or just echo others. For this vote, I\u2019d lean **Player_D** unless new info comes out."
+    },
+    {
+      "round": 1,
+      "name": "Player_E",
+      "text": "Early read: **Player_B** feels the most suspicious to me right now\u2014they\u2019ve contributed the least concrete info and seem to be staying vague.  \nIt\u2019s only Round 1, so I\u2019m not hard-locking, but I want **Player_B** to give a clear account (where they were / who they saw) so we can test consistency next round."
+    },
+    {
+      "round": 1,
+      "name": "Player_C",
+      "text": "Early read is **Player_F** felt a bit too eager to steer the conversation before anyone shared concrete info, which can be a way to shape votes safely. I\u2019m not hard-locking it yet, but I\u2019d like to hear a clearer task/pathing breakdown from F and D since both stayed pretty non-committal."
+    },
+    {
+      "round": 1,
+      "name": "Player_A",
+      "text": "Nothing hard-confirmed yet, but Player_D felt a bit too eager to steer the early conversation without giving concrete info, which can be a way to shape votes safely. I also want to hear more from Player_F since they\u2019ve stayed pretty quiet so far. For now, slight lean on D until we get clearer task/pathing details."
+    },
+    {
+      "round": 1,
+      "name": "Player_D",
+      "text": "No hard reads yet, but I\u2019m slightly suspicious of **Player_B** for staying vague and not giving any concrete pathing or suspects. Early game that can be nerves, but it\u2019s also a safe way to avoid accountability. I want everyone to give one clear suspect and one person they\u2019d tentatively clear so we can track consistency next round."
+    },
+    {
+      "round": 1,
+      "name": "Player_B",
+      "text": "Early read: no hard evidence yet, but I\u2019m slightly suspicious of **Player_F** for staying vague while others gave at least some directional take. For now I want everyone to give a clear top-1 suspect and a reason so we can catch contradictions in later rounds."
+    },
+    {
+      "round": 1,
+      "name": "Player_F",
+      "text": "Early read: **Player_D** feels a bit suspicious for staying vague and not offering any concrete suspicion yet, which can be a safe way to avoid accountability. I also want to hear more from **Player_B** before locking anything in\u2014quiet play this early can hide either role. For now, I\u2019d pressure D with specific questions and see if their story stays consistent."
+    },
+    {
+      "round": 1,
+      "name": "Player_E",
+      "text": "No hard reads yet, but I\u2019m slightly suspicious of **Player_B** for staying vague while others gave at least some directional thoughts. Early game I want pressure over random votes, so I\u2019d like to hear B give a concrete top-2 suspect list before we lock anything in."
+    },
+    {
+      "round": 2,
+      "name": "Player_C",
+      "text": "Round 1\u2019s flip makes me want to re-check who consistently pushed low-info pressure: **Player_D** and **Player_B** are still my top two, with D slightly ahead because they kept framing others as \u201cvague\u201d while staying non-committal themselves. **Player_E** feels a bit more constructive by comparison since they asked for trackable reads early. I\u2019d vote D today unless their timeline is notably clearer this round."
+    },
+    {
+      "round": 2,
+      "name": "Player_A",
+      "text": "Player_B is still my top suspicion: they\u2019ve stayed in the \u201cask others for reads\u201d lane without really committing to a solid, evidence-backed push of their own, which is a low-risk way to coast. I also want to keep light pressure on Player_D for the same non-committal pattern, but B feels like the better vote today unless they give a concrete timeline and a firm suspect."
+    },
+    {
+      "round": 2,
+      "name": "Player_D",
+      "text": "Player_A is my top suspect right now: they kept shifting between pushing F and pushing me without adding concrete new reasoning, which feels like opportunistic positioning. With F flipping crewmate, I also want pressure on Player_C as a possible partner since they repeatedly framed F early and helped that wagon gain legitimacy. My vote is between A and C, with A slightly ahead."
+    },
+    {
+      "round": 2,
+      "name": "Player_B",
+      "text": "With F flipping crewmate, the players who repeatedly tunneled F with light reasoning stand out most to me\u2014especially **C** and **A**, who kept that pressure consistent while leaving room to pivot. **E** has also kept pushing me without adding much beyond \u201cB is vague,\u201d which reads like easy misvote setup.  \nMy current priority is **C > A** (with E as a close third), and I want each of them to give a concrete top-1 suspect plus one specific interaction they\u2019re basing it on this round."
+    },
+    {
+      "round": 2,
+      "name": "Player_E",
+      "text": "Player_F flipping crewmate makes me re-evaluate the people who consistently pushed that wagon without adding new reasoning\u2014especially **Player_C** and **Player_A**, who repeatedly framed F as \u201ceager/steering\u201d across multiple turns. **Player_D** and **Player_B** mostly traded vague suspicion on each other, which is still concerning, but my strongest pressure right now is on **C/A** for potential agenda-driven tunneling on a mis-eject."
+    },
+    {
+      "round": 2,
+      "name": "Player_C",
+      "text": "Player_D is still my top pressure vote right now: they\u2019ve stayed flexible enough to agree with whatever thread is popular, but haven\u2019t really committed to a falsifiable read that we can check later. I also want to keep an eye on Player_B for similar \u201csafe\u201d positioning, but between the two D feels more agenda-driven to me this round."
+    },
+    {
+      "round": 2,
+      "name": "Player_A",
+      "text": "With F flipping crewmate, I want to revisit who helped build that wagon versus who kept options open\u2014**Player_D** stands out for repeatedly staying flexible while nudging suspicion onto easy targets, which is a low-risk way to guide misvotes. I also still want **Player_B** to give a cleaner, specific timeline, because their reads have felt reactive to thread momentum rather than grounded in concrete info. My vote is between **D/B**, slight lean **D** right now."
+    },
+    {
+      "round": 2,
+      "name": "Player_D",
+      "text": "Player_F flipping crewmate makes the people who repeatedly tunneled F look worse, especially **Player_A** and **Player_C** who kept steering there without new evidence. **Player_B** has been consistently vague and mostly echoing consensus pressure, so my top two suspects are **A/B** right now. I want both to give a concrete Round 1 path + who they\u2019re willing to tentatively clear, so we can lock contradictions before voting."
+    },
+    {
+      "round": 2,
+      "name": "Player_B",
+      "text": "Player_F flipping crewmate means the early wagon there was wrong, so I\u2019m re-evaluating who pushed that narrative hardest without adding verifiable detail. Right now my top suspicion is **Player_D**: they repeatedly framed me/F as vague while staying broadly non-committal themselves, which looks like setting up flexible misvotes. I also want scrutiny on **Player_E**, who tunneled me early with little else\u2014if D/E keep aligning on low-evidence pressure, that pairing is worth voting into."
+    },
+    {
+      "round": 2,
+      "name": "Player_E",
+      "text": "Player_F flipping crewmate means the early wagon there was bad, so I want to scrutinize who repeatedly pushed F without adding new reasoning\u2014Player_C stands out most for that. I\u2019m also still wary of Player_B for consistently staying broad/vague and avoiding a firm, accountable read. My top suspect is **Player_C**, with **Player_B** second."
+    }
+  ],
+  "vote_log": [
+    {
+      "round": 1,
+      "voter": "Player_C",
+      "voter_is_imposter": true,
+      "target": "Player_F",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_A",
+      "voter_is_imposter": true,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_D",
+      "voter_is_imposter": false,
+      "target": "Player_F",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_B",
+      "voter_is_imposter": false,
+      "target": "Player_F",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_F",
+      "voter_is_imposter": false,
+      "target": "Player_A",
+      "target_is_imposter": true
+    },
+    {
+      "round": 1,
+      "voter": "Player_E",
+      "voter_is_imposter": false,
+      "target": "Player_B",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_C",
+      "voter_is_imposter": true,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_A",
+      "voter_is_imposter": true,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_D",
+      "voter_is_imposter": false,
+      "target": "Player_C",
+      "target_is_imposter": true
+    },
+    {
+      "round": 2,
+      "voter": "Player_B",
+      "voter_is_imposter": false,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_E",
+      "voter_is_imposter": false,
+      "target": "Player_C",
+      "target_is_imposter": true
+    }
+  ],
+  "ejection_log": [
+    {
+      "round": 1,
+      "name": "Player_F",
+      "role": "CREWMATE",
+      "votes_received": 3,
+      "total_votes": 6
+    },
+    {
+      "round": 2,
+      "name": "Player_D",
+      "role": "CREWMATE",
+      "votes_received": 3,
+      "total_votes": 5
+    }
+  ]
+}

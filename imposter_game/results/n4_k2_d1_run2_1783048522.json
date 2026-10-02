@@ -1,0 +1,95 @@
+{
+  "game_id": "n4_k2_d1_run2_1783048522",
+  "config": {
+    "n_players": 4,
+    "n_imposters": 2,
+    "discussion_rounds": 1,
+    "model": "gpt-5.3-codex",
+    "temperature": 0.7
+  },
+  "players": [
+    {
+      "name": "Player_C",
+      "role": "IMPOSTER",
+      "survived": true
+    },
+    {
+      "name": "Player_A",
+      "role": "IMPOSTER",
+      "survived": true
+    },
+    {
+      "name": "Player_D",
+      "role": "CREWMATE",
+      "survived": false
+    },
+    {
+      "name": "Player_B",
+      "role": "CREWMATE",
+      "survived": true
+    }
+  ],
+  "winner": "imposters",
+  "rounds_played": 1,
+  "discussion_log": [
+    {
+      "round": 1,
+      "name": "Player_C",
+      "text": "Early read is **Player_D** felt a bit too eager to steer the conversation before we had much info, which can be a way to control the vote.  \nI\u2019m not hard-locking it yet, but I\u2019d like to hear D give a clearer timeline of what they were doing and who they saw."
+    },
+    {
+      "round": 1,
+      "name": "Player_A",
+      "text": "Nothing solid yet, but Player_D felt a bit too quick to steer the conversation without giving concrete observations. I\u2019d like to hear specific pathing/tasks from D and B before we lock anything in. If we have to vote this round, I\u2019d lean D on tone alone."
+    },
+    {
+      "round": 1,
+      "name": "Player_D",
+      "text": "Early read: I\u2019m most suspicious of **Player_A** for staying vague and not pushing any concrete suspicion, which can be a low-risk way to blend in.  \nIf we\u2019re making a pressure vote this round, I\u2019d put it on A and see how **Player_B** and **Player_C** react to that push."
+    },
+    {
+      "round": 1,
+      "name": "Player_B",
+      "text": "Early read: I\u2019m most suspicious of **Player_D** right now for staying vague and not offering any concrete suspicions yet. With 2 imposters in 4, we can\u2019t afford random votes, so I want everyone to name a top suspect and one specific reason so we can catch contradictions next round."
+    }
+  ],
+  "vote_log": [
+    {
+      "round": 1,
+      "voter": "Player_C",
+      "voter_is_imposter": true,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_A",
+      "voter_is_imposter": true,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_D",
+      "voter_is_imposter": false,
+      "target": "Player_A",
+      "target_is_imposter": true
+    },
+    {
+      "round": 1,
+      "voter": "Player_B",
+      "voter_is_imposter": false,
+      "target": "Player_D",
+      "target_is_imposter": false
+    }
+  ],
+  "ejection_log": [
+    {
+      "round": 1,
+      "name": "Player_D",
+      "role": "CREWMATE",
+      "votes_received": 3,
+      "total_votes": 4
+    }
+  ]
+}

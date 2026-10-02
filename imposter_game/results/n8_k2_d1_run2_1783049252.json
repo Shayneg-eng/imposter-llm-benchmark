@@ -1,0 +1,400 @@
+{
+  "game_id": "n8_k2_d1_run2_1783049252",
+  "config": {
+    "n_players": 8,
+    "n_imposters": 2,
+    "discussion_rounds": 1,
+    "model": "gpt-5.3-codex",
+    "temperature": 0.7
+  },
+  "players": [
+    {
+      "name": "Player_A",
+      "role": "IMPOSTER",
+      "survived": true
+    },
+    {
+      "name": "Player_C",
+      "role": "IMPOSTER",
+      "survived": true
+    },
+    {
+      "name": "Player_E",
+      "role": "CREWMATE",
+      "survived": true
+    },
+    {
+      "name": "Player_F",
+      "role": "CREWMATE",
+      "survived": true
+    },
+    {
+      "name": "Player_B",
+      "role": "CREWMATE",
+      "survived": false
+    },
+    {
+      "name": "Player_G",
+      "role": "CREWMATE",
+      "survived": false
+    },
+    {
+      "name": "Player_H",
+      "role": "CREWMATE",
+      "survived": false
+    },
+    {
+      "name": "Player_D",
+      "role": "CREWMATE",
+      "survived": false
+    }
+  ],
+  "winner": "imposters",
+  "rounds_played": 4,
+  "discussion_log": [
+    {
+      "round": 1,
+      "name": "Player_A",
+      "text": "Early read only, but Player_H felt a bit off\u2014they were quick to agree with whoever spoke last without adding anything concrete. I\u2019d also like to hear more from Player_D since they\u2019ve been pretty quiet so far. I\u2019m not hard-pushing either yet, just where my attention is."
+    },
+    {
+      "round": 1,
+      "name": "Player_C",
+      "text": "Nothing hard yet, but Player_H felt a bit opportunistic jumping onto Player_F without adding much detail. I also want to hear more from Player_B since they stayed pretty quiet during the first discussion. For now I\u2019d watch those two rather than rush a vote."
+    },
+    {
+      "round": 1,
+      "name": "Player_E",
+      "text": "No hard reads yet, but I want to pressure **Player_B** and **Player_H** first\u2014they were the quickest to give vague \u201cjust vibes\u201d takes without anchoring to anything observable. Early deflection like that can be a way to avoid creating contradictions later, so I\u2019d like both to give specific timelines/positions this round."
+    },
+    {
+      "round": 1,
+      "name": "Player_F",
+      "text": "Early read: no hard evidence yet, but I\u2019m slightly suspicious of **Player_G** for staying vague and not giving any concrete reads while others started committing. I also want to watch **Player_B** next round based on how they vote\u2014if they pile onto an easy target without reasoning, that\u2019s a red flag."
+    },
+    {
+      "round": 1,
+      "name": "Player_B",
+      "text": "No hard reads yet, but I want to pressure anyone giving vague \u201cI was just doing tasks\u201d statements without specifics\u2014those are easy places for imposters to hide early. Right now I\u2019m lightly suspicious of Player_F and Player_H unless they can give a clear route and who they crossed paths with. If anyone has a concrete alibi pair, share it now so we can lock in trusted info early."
+    },
+    {
+      "round": 1,
+      "name": "Player_G",
+      "text": "Early read: no hard evidence yet, but I want to pressure **Player_E** and **Player_H** first\u2014they\u2019ve been the quietest, and low engagement early can hide coordination. I\u2019m not voting blindly this round, but I want both to give clear pathing/task-style details so we can compare stories next vote."
+    },
+    {
+      "round": 1,
+      "name": "Player_H",
+      "text": "Early read: no hard clears yet, but I\u2019m slightly suspicious of anyone who stays vague or avoids giving at least one concrete suspicion this round. I want to hear from Player_A and Player_F specifically with a direct read (even a weak one), because passive \u201cno info\u201d talk helps imposters coast. For now I\u2019m holding vote until we get clearer stances."
+    },
+    {
+      "round": 1,
+      "name": "Player_D",
+      "text": "No hard sus yet from me\u2014round 1 info is thin. I want to watch for anyone pushing a fast vote without a clear reason, because that\u2019s often how imposters try to steer early. For now, I\u2019m most wary of whoever gives vague accusations instead of specific observations."
+    },
+    {
+      "round": 2,
+      "name": "Player_A",
+      "text": "H flipping crewmate makes me re-check who helped that wagon feel \u201csafe\u201d without committing to strong logic\u2014right now I\u2019m most wary of **Player_G** and **Player_B** for staying broad and positioning around easy pressure points. **Player_D** is still a question mark too; the cautious \u201cdon\u2019t rush\u201d posture can be genuine, but it also avoids giving us testable reads. I\u2019d like each of them to give one concrete suspect + one player they\u2019re least suspicious of so we can compare consistency next vote."
+    },
+    {
+      "round": 2,
+      "name": "Player_C",
+      "text": "Player_D is my top pressure this round: in R1 they stayed very noncommittal and focused on generic \u201cdon\u2019t fast vote\u201d framing without giving a real sorting read on anyone. I also want to re-check Player_G, since their E/H pressure didn\u2019t really evolve into concrete follow-up after H flipped crewmate. I\u2019d like both of them to give specific pairings or contradictions they see now, not just broad caution."
+    },
+    {
+      "round": 2,
+      "name": "Player_E",
+      "text": "Player_G is my top suspicion right now: in Round 1 they pushed me for being \u201cquiet\u201d even though I gave concrete pressure on B/H, which reads like a manufactured reason rather than a real one. I also want pressure on Player_B again\u2014their broad, hedgey stance (\u201cvague players are sus\u201d) set up flexibility without committing to a falsifiable read. I\u2019d like both G and B to give specific vote logic from last round and one strongest current suspect each."
+    },
+    {
+      "round": 2,
+      "name": "Player_F",
+      "text": "Player_G is still my top suspicion: in Round 1 they called out Player_E as \u201cquiet,\u201d but E actually gave one of the more specific takes (B/H with reasoning), so that felt like a manufactured push. I also want pressure on Player_B again\u2014B set up suspicion on me and H while staying noncommittal, which can be a safe distancing pattern. If we compare this round\u2019s votes, I\u2019d prioritize ejection between G and B based on who gives concrete, testable details versus who stays flexible."
+    },
+    {
+      "round": 2,
+      "name": "Player_B",
+      "text": "Player_G is my top suspicion right now: they pushed pressure onto Player_E and Player_H for \u201clow engagement,\u201d but E actually gave specific pressure targets while G stayed comparatively non-committal. I also want Player_D to give a concrete pair of suspects this round instead of only general \u201cwatch vague voters\u201d logic. If we\u2019re voting today, I\u2019d lean G unless someone provides stronger contradictory info."
+    },
+    {
+      "round": 2,
+      "name": "Player_G",
+      "text": "Player_F is my top suspicion right now: they called me \u201cvague\u201d in R1, but their own read was mostly setup for future suspicion on me/Player_B without concrete interaction details. I also want pressure on Player_D again\u2014still very noncommittal across both rounds, which can be safe positioning. If we\u2019re voting today, I\u2019d prefer between **F** and **D** unless someone brings a stronger contradiction."
+    },
+    {
+      "round": 2,
+      "name": "Player_D",
+      "text": "Player_H flipping crew makes me re-check who helped build that wagon without strong evidence\u2014right now I\u2019m most suspicious of **Player_G** and **Player_B**. **Player_G** pushed H/E early off \u201cquiet = suspicious,\u201d which is an easy miselim setup, and **Player_B** kept broad, flexible suspicion on multiple people without committing to testable specifics. I want both to give concrete round-by-round reasoning and explain their H vote trajectory."
+    },
+    {
+      "round": 3,
+      "name": "Player_A",
+      "text": "Right now I\u2019m between **Player_B** and **Player_D**. **B** has stayed consistently hedgey with \u201csafe\u201d consensus-adjacent reads, while **D** keeps giving process talk and only late, low-risk commitments after the thread direction is clear. If I had to prioritize pressure today, I\u2019d start with **B** and want a direct, non-hedged top suspect from **D**."
+    },
+    {
+      "round": 3,
+      "name": "Player_C",
+      "text": "I\u2019m still most suspicious of **Player_B** and **Player_D**: B has stayed broadly adaptable each round and keeps landing on consensus-safe pressure, while D\u2019s reads only sharpen after flips and still avoid staking a risky, proactive solve. With G now confirmed crew, I want both B and D to give a clear **A/C/E/F** trust ranking so we can test who\u2019s actually solving versus preserving flexibility."
+    },
+    {
+      "round": 3,
+      "name": "Player_E",
+      "text": "My top suspect remains **Player_B**: they\u2019ve repeatedly used broad, adaptable suspicion framing and only firmed up on **G** once that became the consensus-safe direction, which looks more like positioning than solving. I\u2019m also watching **Player_D** for still-light commitment despite being asked for concrete sorting multiple times, though less strongly than B. If we want the highest-info vote today, I\u2019d push **B** and force clear, specific pair reads from everyone before lock-in."
+    },
+    {
+      "round": 3,
+      "name": "Player_F",
+      "text": "I still think **Player_B** is the best vote today: they\u2019ve repeatedly used broad, adaptable suspicion (\u201cvague players\u201d) while avoiding strong, falsifiable commitments until consensus formed, which is exactly how an imposter can stay safe. Between the two mis-ejections (H, G), B\u2019s positioning looks like controlled flexibility rather than genuine solving. My secondary concern is **Player_D** if they continue staying low-commitment, but I\u2019d eject **B** first."
+    },
+    {
+      "round": 3,
+      "name": "Player_B",
+      "text": "Right now my top suspect is **Player_D**: they spent two rounds in safe, generic \u201cdon\u2019t rush / watch vague voters\u201d language, then only sharpened once **Player_G** became the consensus target, which feels opportunistic. My second suspicion is **Player_A** for repeatedly shading me with broad wording but not engaging my actual progression (I moved from F/H early to a concrete G push in R2 and voted it). I want both D and A to give one specific inconsistency they think I\u2019ve made, not just posture reads."
+    },
+    {
+      "round": 3,
+      "name": "Player_D",
+      "text": "I still want to resolve between **Player_B** and **Player_G\u2019s legacy pushes**, and with G now gone crew, **B moves up** for me: B repeatedly stayed hedgey, echoed consensus pressure, and only \u201ccommitted\u201d once G became the easy wagon. Between the remaining players, **Player_C and Player_E look more consistent** in their round-to-round logic, while B and (to a lesser extent) A have had more flexible positioning. My vote is on **Player_B** unless they can give a tight, contradiction-free progression from R1\u2192R3."
+    },
+    {
+      "round": 4,
+      "name": "Player_A",
+      "text": "With **B flipping crewmate**, the slot that worries me most now is **Player_D**: across multiple rounds D stayed low-commitment early, then repeatedly firmed up only after thread consensus formed, which is a classic \u201cstay safe first, commit late\u201d pattern. I\u2019m less worried about **E/F** because their pressure remained consistent and falsifiable round-to-round, while D\u2019s progression still feels more reactive than solving-driven."
+    },
+    {
+      "round": 4,
+      "name": "Player_C",
+      "text": "With B flipping crewmate, my focus is on **Player_D** first: across all rounds they stayed reactive, gave process-heavy takes, and mostly firmed reads after thread direction was already established, which is still the most \u201csafe positioning\u201d pattern left. I\u2019m also keeping a lighter eye on **Player_F** for how comfortably they rode the B narrative from early on without really re-opening alternatives after two crew flips. If we\u2019re deciding today, I\u2019d pressure **D** to give a hard, non-hedged solve between A/E/F/C."
+    },
+    {
+      "round": 4,
+      "name": "Player_E",
+      "text": "With **B flipped crewmate**, the cleanest remaining solve is **A/D** for me, and I\u2019d vote **Player_D** first: D spent most of the game in low-commitment process talk, then repeatedly hardened reads only after thread consensus formed, which is a classic survival-first pattern. **Player_F** has been the most consistent in pushing G\u2192B for concrete reasons, and **Player_C** has stayed similarly coherent, so D is my priority ejection today."
+    },
+    {
+      "round": 4,
+      "name": "Player_F",
+      "text": "With **B confirmed crew**, the strongest remaining concern is **Player_D**: they stayed noncommittal early, then shifted into safer consensus-aligned pushes once wagons were established, and that pattern still hasn\u2019t produced a proactive solve. My second suspicion is **Player_A** for repeatedly keeping options open with broad shading rather than driving a falsifiable pair-world. Right now I\u2019d prioritize voting **D** and want final, explicit pair reads from everyone before lock."
+    },
+    {
+      "round": 4,
+      "name": "Player_D",
+      "text": "With **B flipping crewmate**, the players who most consistently drove the \u201cB/D\u201d framing while keeping flexibility now need re-evaluation\u2014my top suspicion is **Player_A**, with **Player_F** secondary. A repeatedly kept me as a fallback suspect across rounds while avoiding a sharper alternative solve, and F\u2019s progression stayed close to consensus rails (G then B) without much independent re-sorting after crew flips. I currently trust **Player_C** and **Player_E** more for having the most internally consistent, testable logic."
+    }
+  ],
+  "vote_log": [
+    {
+      "round": 1,
+      "voter": "Player_A",
+      "voter_is_imposter": true,
+      "target": "Player_H",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_C",
+      "voter_is_imposter": true,
+      "target": "Player_H",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_E",
+      "voter_is_imposter": false,
+      "target": "Player_H",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_F",
+      "voter_is_imposter": false,
+      "target": "Player_H",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_B",
+      "voter_is_imposter": false,
+      "target": "Player_H",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_G",
+      "voter_is_imposter": false,
+      "target": "Player_H",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_H",
+      "voter_is_imposter": false,
+      "target": "Player_B",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_D",
+      "voter_is_imposter": false,
+      "target": "Player_H",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_A",
+      "voter_is_imposter": true,
+      "target": "Player_G",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_C",
+      "voter_is_imposter": true,
+      "target": "Player_G",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_E",
+      "voter_is_imposter": false,
+      "target": "Player_G",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_F",
+      "voter_is_imposter": false,
+      "target": "Player_G",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_B",
+      "voter_is_imposter": false,
+      "target": "Player_G",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_G",
+      "voter_is_imposter": false,
+      "target": "Player_B",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_D",
+      "voter_is_imposter": false,
+      "target": "Player_G",
+      "target_is_imposter": false
+    },
+    {
+      "round": 3,
+      "voter": "Player_A",
+      "voter_is_imposter": true,
+      "target": "Player_B",
+      "target_is_imposter": false
+    },
+    {
+      "round": 3,
+      "voter": "Player_C",
+      "voter_is_imposter": true,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 3,
+      "voter": "Player_E",
+      "voter_is_imposter": false,
+      "target": "Player_B",
+      "target_is_imposter": false
+    },
+    {
+      "round": 3,
+      "voter": "Player_F",
+      "voter_is_imposter": false,
+      "target": "Player_B",
+      "target_is_imposter": false
+    },
+    {
+      "round": 3,
+      "voter": "Player_B",
+      "voter_is_imposter": false,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 3,
+      "voter": "Player_D",
+      "voter_is_imposter": false,
+      "target": "Player_B",
+      "target_is_imposter": false
+    },
+    {
+      "round": 4,
+      "voter": "Player_A",
+      "voter_is_imposter": true,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 4,
+      "voter": "Player_C",
+      "voter_is_imposter": true,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 4,
+      "voter": "Player_E",
+      "voter_is_imposter": false,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 4,
+      "voter": "Player_F",
+      "voter_is_imposter": false,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 4,
+      "voter": "Player_D",
+      "voter_is_imposter": false,
+      "target": "Player_A",
+      "target_is_imposter": true
+    }
+  ],
+  "ejection_log": [
+    {
+      "round": 1,
+      "name": "Player_H",
+      "role": "CREWMATE",
+      "votes_received": 7,
+      "total_votes": 8
+    },
+    {
+      "round": 2,
+      "name": "Player_G",
+      "role": "CREWMATE",
+      "votes_received": 6,
+      "total_votes": 7
+    },
+    {
+      "round": 3,
+      "name": "Player_B",
+      "role": "CREWMATE",
+      "votes_received": 4,
+      "total_votes": 6
+    },
+    {
+      "round": 4,
+      "name": "Player_D",
+      "role": "CREWMATE",
+      "votes_received": 4,
+      "total_votes": 5
+    }
+  ]
+}

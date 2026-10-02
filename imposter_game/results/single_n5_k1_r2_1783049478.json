@@ -1,0 +1,240 @@
+{
+  "game_id": "single_n5_k1_r2_1783049478",
+  "config": {
+    "n_players": 5,
+    "n_imposters": 1,
+    "clue_rounds": 2,
+    "allow_guess": true,
+    "word_category": null,
+    "model": "GPT-5.4-Nano",
+    "temperature": 0.7
+  },
+  "secret_word": "penguin",
+  "word_category": "animal",
+  "players": [
+    {
+      "name": "Player_B",
+      "role": "IMPOSTER",
+      "survived": false
+    },
+    {
+      "name": "Player_C",
+      "role": "NON-IMPOSTER",
+      "survived": true
+    },
+    {
+      "name": "Player_E",
+      "role": "NON-IMPOSTER",
+      "survived": true
+    },
+    {
+      "name": "Player_D",
+      "role": "NON-IMPOSTER",
+      "survived": true
+    },
+    {
+      "name": "Player_A",
+      "role": "NON-IMPOSTER",
+      "survived": false
+    }
+  ],
+  "winner": "non-imposters",
+  "imposter_guessed_word": false,
+  "clue_log": [
+    {
+      "round": 1,
+      "name": "Player_B",
+      "is_imposter": true,
+      "clue": "balance"
+    },
+    {
+      "round": 1,
+      "name": "Player_C",
+      "is_imposter": false,
+      "clue": "iceberg"
+    },
+    {
+      "round": 1,
+      "name": "Player_E",
+      "is_imposter": false,
+      "clue": "marshmallow"
+    },
+    {
+      "round": 1,
+      "name": "Player_D",
+      "is_imposter": false,
+      "clue": "antarctica"
+    },
+    {
+      "round": 1,
+      "name": "Player_A",
+      "is_imposter": false,
+      "clue": "blubber"
+    },
+    {
+      "round": 2,
+      "name": "Player_B",
+      "is_imposter": true,
+      "clue": "glacier"
+    },
+    {
+      "round": 2,
+      "name": "Player_C",
+      "is_imposter": false,
+      "clue": "snowfall"
+    },
+    {
+      "round": 2,
+      "name": "Player_E",
+      "is_imposter": false,
+      "clue": "waddling"
+    },
+    {
+      "round": 2,
+      "name": "Player_D",
+      "is_imposter": false,
+      "clue": "seabird"
+    },
+    {
+      "round": 2,
+      "name": "Player_A",
+      "is_imposter": false,
+      "clue": "molt"
+    },
+    {
+      "round": 1,
+      "name": "Player_B",
+      "is_imposter": true,
+      "clue": "brine"
+    },
+    {
+      "round": 1,
+      "name": "Player_C",
+      "is_imposter": false,
+      "clue": "waddle"
+    },
+    {
+      "round": 1,
+      "name": "Player_E",
+      "is_imposter": false,
+      "clue": "tuxedo"
+    },
+    {
+      "round": 1,
+      "name": "Player_D",
+      "is_imposter": false,
+      "clue": "emperor"
+    },
+    {
+      "round": 2,
+      "name": "Player_B",
+      "is_imposter": true,
+      "clue": "penguin"
+    },
+    {
+      "round": 2,
+      "name": "Player_C",
+      "is_imposter": false,
+      "clue": "tuxedo"
+    },
+    {
+      "round": 2,
+      "name": "Player_E",
+      "is_imposter": false,
+      "clue": "icefloes"
+    },
+    {
+      "round": 2,
+      "name": "Player_D",
+      "is_imposter": false,
+      "clue": "iceberg"
+    }
+  ],
+  "vote_log": [
+    {
+      "round": 2,
+      "voter": "Player_B",
+      "voter_is_imposter": true,
+      "target": "Player_E",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_C",
+      "voter_is_imposter": false,
+      "target": "Player_E",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_E",
+      "voter_is_imposter": false,
+      "target": "Player_A",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_D",
+      "voter_is_imposter": false,
+      "target": "Player_A",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_A",
+      "voter_is_imposter": false,
+      "target": "Player_B",
+      "target_is_imposter": true
+    },
+    {
+      "round": 2,
+      "voter": "Player_B",
+      "voter_is_imposter": true,
+      "target": "Player_E",
+      "target_is_imposter": false
+    },
+    {
+      "round": 2,
+      "voter": "Player_C",
+      "voter_is_imposter": false,
+      "target": "Player_B",
+      "target_is_imposter": true
+    },
+    {
+      "round": 2,
+      "voter": "Player_E",
+      "voter_is_imposter": false,
+      "target": "Player_B",
+      "target_is_imposter": true
+    },
+    {
+      "round": 2,
+      "voter": "Player_D",
+      "voter_is_imposter": false,
+      "target": "Player_B",
+      "target_is_imposter": true
+    }
+  ],
+  "accusation_log": [
+    {
+      "round": 2,
+      "accused": "Player_A",
+      "role": "NON-IMPOSTER",
+      "was_imposter": false,
+      "votes_received": 2,
+      "total_votes": 5,
+      "imposter_word_guess": null,
+      "guess_correct": null
+    },
+    {
+      "round": 2,
+      "accused": "Player_B",
+      "role": "IMPOSTER",
+      "was_imposter": true,
+      "votes_received": 3,
+      "total_votes": 4,
+      "imposter_word_guess": "whisper",
+      "guess_correct": false
+    }
+  ]
+}

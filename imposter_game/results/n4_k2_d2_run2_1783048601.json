@@ -1,0 +1,115 @@
+{
+  "game_id": "n4_k2_d2_run2_1783048601",
+  "config": {
+    "n_players": 4,
+    "n_imposters": 2,
+    "discussion_rounds": 2,
+    "model": "gpt-5.3-codex",
+    "temperature": 0.7
+  },
+  "players": [
+    {
+      "name": "Player_A",
+      "role": "IMPOSTER",
+      "survived": true
+    },
+    {
+      "name": "Player_B",
+      "role": "IMPOSTER",
+      "survived": true
+    },
+    {
+      "name": "Player_D",
+      "role": "CREWMATE",
+      "survived": false
+    },
+    {
+      "name": "Player_C",
+      "role": "CREWMATE",
+      "survived": true
+    }
+  ],
+  "winner": "imposters",
+  "rounds_played": 1,
+  "discussion_log": [
+    {
+      "round": 1,
+      "name": "Player_A",
+      "text": "Early take: I\u2019m a little wary of **Player_D** right now\u2014they stayed pretty noncommittal and didn\u2019t really try to sort anyone, which can be an easy way to coast. It\u2019s still early, but I\u2019d like to hear D give a clearer read on at least one person before we lock votes."
+    },
+    {
+      "round": 1,
+      "name": "Player_B",
+      "text": "No hard clears yet, but Player_D\u2019s pathing felt a bit inconsistent\u2014they doubled back near Electrical without a clear task stop, which looked like either indecision or baiting. I\u2019m not locked in, but D is my top lean for now unless they can explain that movement."
+    },
+    {
+      "round": 1,
+      "name": "Player_D",
+      "text": "Early read: **Player_B** feels the most suspicious to me for staying vague and not giving any concrete suspicion yet.  \nI also want to watch **Player_C** if they keep echoing others instead of giving independent reasoning.  \nFor now, I\u2019d pressure-vote **Player_B** to force clearer takes."
+    },
+    {
+      "round": 1,
+      "name": "Player_C",
+      "text": "Early read: **Player_B** feels most suspicious for staying vague and not offering any concrete suspicion yet. With 2 imposters in 4, we can\u2019t afford passive play\u2014I'd like everyone to name a top suspect now so we can catch inconsistencies next round."
+    },
+    {
+      "round": 1,
+      "name": "Player_A",
+      "text": "No hard reads yet, but Player_D felt a bit too quick to steer the conversation without giving much concrete reasoning. I\u2019d like to hear more from Player_D and Player_C about where they were and who they\u2019re suspicious of before we lock in votes."
+    },
+    {
+      "round": 1,
+      "name": "Player_B",
+      "text": "Early read is **Player_D** feels a bit off \u2014 they\u2019ve stayed vague and haven\u2019t really pushed any concrete info yet. I\u2019m not hard-accusing, but I\u2019d like D to give a clearer account of where they were and who they saw. For now, that\u2019s my strongest lead."
+    },
+    {
+      "round": 1,
+      "name": "Player_D",
+      "text": "Early read: **Player_B** feels most suspicious for staying vague and not offering any concrete suspicion yet\u2014easy place for an imposter to hide.  \nI also want to hear **Player_A** and **Player_C** commit to a top suspect now so we can track consistency next round."
+    },
+    {
+      "round": 1,
+      "name": "Player_C",
+      "text": "Early read: **Player_B** is my top suspicion for now\u2014they jumped to conclusions quickly without offering concrete observations. I also want to watch **Player_A** for possible deflection if they avoid giving direct reads next. For this vote, I lean **Player_B** unless someone provides stronger evidence."
+    }
+  ],
+  "vote_log": [
+    {
+      "round": 1,
+      "voter": "Player_A",
+      "voter_is_imposter": true,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_B",
+      "voter_is_imposter": true,
+      "target": "Player_D",
+      "target_is_imposter": false
+    },
+    {
+      "round": 1,
+      "voter": "Player_D",
+      "voter_is_imposter": false,
+      "target": "Player_B",
+      "target_is_imposter": true
+    },
+    {
+      "round": 1,
+      "voter": "Player_C",
+      "voter_is_imposter": false,
+      "target": "Player_B",
+      "target_is_imposter": true
+    }
+  ],
+  "ejection_log": [
+    {
+      "round": 1,
+      "name": "Player_D",
+      "role": "CREWMATE",
+      "votes_received": 2,
+      "total_votes": 4
+    }
+  ]
+}
